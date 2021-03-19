@@ -1,0 +1,3 @@
+<h1><strong>EVENTO</strong></h1>
+<p>O evento foi uma iniciativa do Grupo animeURA, grupo que foi criado com a finalidade de disseminar a cultura nipônica e a paixão por animes e manga, como outras culturas nerds por Uberaba e região, assim como também facilitar o social entre aqueles que compartilham destes gostos. Entres os vários projetos dentro desta temática, nasceu a Convenção Anime Otaku Sekai, criada com a finalidade de não deixar o movimento Nerd e Otaku da cidade enfraquecer e também atrair o público de todo Brasil, mostrando o potencial de nossa cidade e futuramente, se tornando o maior evento de animes de toda região!<br />
+</p>

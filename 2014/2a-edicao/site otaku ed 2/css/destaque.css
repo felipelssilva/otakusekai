@@ -1,0 +1,92 @@
+a img { border: none; }
+
+#blocoDestaques {
+	font-size:25px;
+	text-shadow: 0 1px 1px #000000;
+	border-bottom:5px #ff6000 solid;
+}
+
+#blocoDestaques ul,
+#blocoDestaques ul li {
+	list-style: none;	
+}
+
+#blocoDestaques,
+#blocoDestaques ul,
+#blocoDestaques ul li {
+	margin: 0;
+	padding:0;
+}
+#blocoDestaques ul li img#i {
+	float:right;
+	right:0px;
+}
+
+
+#blocoDestaques ul li {
+	position:relative;
+	width:900px;
+}
+
+#blocoDestaques ul li div.fundo {
+	padding-top:100px;
+	width:450px;
+	height:300px;	
+	float:left;
+	left:0px;
+	position:relative;
+	text-align:center;
+	top:0px;
+	bottom:0px;
+	background: #ffc513;
+
+}
+
+
+#blocoDestaques div.fundo p:first-child{
+	margin-top:-50px;
+}
+
+#blocoDestaques div.fundo p:last-child{
+	font-size:80%;
+}
+
+
+#blocoDestaques ul li div.fundo p strong{
+	font-size:150%;
+}
+
+
+#blocoDestaques ul li p {
+	margin: 0px;	
+	padding: 10px 15px;
+	/*position: absolute;*/
+	top: 0px;
+}
+
+
+#blocoDestaques ul li p a {
+	color: white;
+	text-decoration: none;
+
+}	
+
+#blocoDestaques div.paginas {
+	position: absolute;
+	bottom:-30px;
+	right:0px;
+	z-index:9999;
+}
+
+#blocoDestaques div.paginas a {
+	height: 20px;
+	width: 30px;	
+}
+
+#blocoDestaques div.paginas a:hover,
+#blocoDestaques div.paginas a.activeSlide {
+	background-position:0% 100%;
+}
+
+#blocoDestaques ul li p,
+#blocoDestaques ul li div.fundo { color:#fff; }

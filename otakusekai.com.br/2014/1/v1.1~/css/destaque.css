@@ -1,0 +1,116 @@
+a img { border: none; }
+
+#blocoDestaques {
+	font-family: 'Allan', cursive;
+	font-size:25px;
+	left:350px;
+	top:350px;
+	width:900px;
+	position:absolute;
+		/*-webkit-gradient(linear, left top, left bottom, from(#E0E0E0), to(#F3F3F3));
+		background:-moz-linear-gradient(top, #E0E0E0, #F3F3F3);
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#E0E0E0, endColorstr=#F3F3F3)";
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#E0E0E0, endColorstr=#F3F3F3);*/
+	text-shadow: 0 1px 1px #000000;
+	border:2px solid #000;
+}
+
+#blocoDestaques ul,
+#blocoDestaques ul li {
+	list-style: none;	
+}
+
+#blocoDestaques,
+#blocoDestaques ul,
+#blocoDestaques ul li {
+	margin: 0;
+	padding:0;
+	width:900px;
+}
+#blocoDestaques ul li img#i {
+	float:right;
+	right:0px;
+	-webkit-border-radius: 0px;
+	   -moz-border-radius: 0px;
+			border-radius: 0px;
+}
+
+#blocoDestaques #img{
+
+	-webkit-border-radius: 0px;
+	   -moz-border-radius: 0px;
+			border-radius: 0px;
+}
+#blocoDestaques ul li {
+	position:relative;
+	width:900px;
+}
+
+#blocoDestaques ul li div.fundo {
+	padding-top:100px;
+	width:450px;
+	height:300px;	
+	float:left;
+	left:0px;
+	position:relative;
+	text-align:center;
+	top:0px;
+	bottom:0px;
+	background: #D90000;
+
+/*	opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);*/
+}
+
+#blocoDestaques ul li div.fundo p strong{
+	font-size:150%;
+}
+
+
+#blocoDestaques ul li p {
+	margin: 0px;	
+	padding: 10px 15px;
+	/*position: absolute;*/
+	top: 0px;
+}
+
+
+#blocoDestaques ul li p a {
+	color: white;
+	text-decoration: none;
+
+}	
+/*
+#blocoDestaques a.faixa { 
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	z-index: 100;
+	background: transparent url('../imagens/faixa.png') 0 0 no-repeat;
+}
+*/
+#blocoDestaques div.paginas {
+	position: absolute;
+	bottom:-30px;
+	right:0px;
+	z-index:9999;
+}
+
+#blocoDestaques div.paginas a {
+	height: 20px;
+	width: 30px;	
+	display: block;
+	float: left;
+	background:url(../imagens/bt_poke.png) no-repeat;
+}
+
+#blocoDestaques div.paginas a:hover,
+#blocoDestaques div.paginas a.activeSlide {
+	background-position:0% 100%;
+}
+
+#blocoDestaques ul li p,
+#blocoDestaques ul li div.fundo { color:#fff; }

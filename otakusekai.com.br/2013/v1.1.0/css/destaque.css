@@ -1,0 +1,132 @@
+a img { border: none; }
+
+#blocoDestaques {
+
+	position: relative;
+		background:#fff;
+		/*-webkit-gradient(linear, left top, left bottom, from(#E0E0E0), to(#F3F3F3));
+		background:-moz-linear-gradient(top, #E0E0E0, #F3F3F3);
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#E0E0E0, endColorstr=#F3F3F3)";
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#E0E0E0, endColorstr=#F3F3F3);*/
+	text-shadow: 0 1px 1px #000000;		
+}
+
+#blocoDestaques ul,
+#blocoDestaques ul li {
+	list-style: none;	
+}
+
+#blocoDestaques,
+#blocoDestaques ul,
+#blocoDestaques ul li {
+	margin: 0;
+	padding:0;
+	width:90%;
+}
+#blocoDestaques ul li img#i {
+	position:relative;
+	right:0px;
+}
+
+#blocoDestaques #img{
+	right:0px;
+}
+#blocoDestaques ul li {
+	position: relative;
+}
+
+#blocoDestaques ul li div.fundo {
+	width: 400px;
+	position: absolute;
+	top:0px;
+	bottom:0px;
+	background: #000;
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);	
+}
+
+
+#blocoDestaques ul li p {
+	margin: 0px;	
+	padding: 10px 15px;
+	/*position: absolute;*/
+	top: 0px;
+}
+
+
+#blocoDestaques ul li p a {
+	color: white;
+	text-decoration: none;
+
+}	
+/*
+#blocoDestaques a.faixa { 
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	z-index: 100;
+	background: transparent url('../imagens/faixa.png') 0 0 no-repeat;
+}*/
+
+#blocoDestaques div.paginas {
+	position: absolute;
+	bottom:0;
+	right:0;
+	text-shadow: 0 1px 1px #FFFFFF;
+	z-index:9999;
+}
+
+#blocoDestaques div.paginas a {
+	height: 20px;
+	width: 40px;	
+	display: block;
+	float: left;
+	margin:1px;
+	color:#000;
+	font-size: 16px;
+	text-decoration: none;	
+	text-align: center;
+/*	line-height: 20px;*/
+	outline: none;
+	-webkit-border-radius:15px;
+	   -moz-border-radius:15px;
+			border-radius:15px;
+	background:-webkit-gradient(linear, left top, left bottom, from(#E4E4E4), to(#EEE));
+	background:-moz-linear-gradient(top, #E4E4E4, #EEE);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#E4E4E4, endColorstr=#EEEEEE)";
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#E4E4E4, endColorstr=#EEEEEE);	
+}
+
+#blocoDestaques div.paginas a:hover,
+#blocoDestaques div.paginas a.activeSlide {
+	font-weight: bold;
+	color:#FFF;
+	background:-webkit-gradient(linear, left top, left bottom, from(#333333), to(#666666));
+	background:-moz-linear-gradient(top, #333333, #666666);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#333333, endColorstr=#666666)";
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#333333, endColorstr=#666666);		
+	text-shadow: 0 1px 1px #000000;
+}
+
+#blocoDestaques ul li p,
+#blocoDestaques ul li div.fundo { display: none;color: white; }
+/*
+#blocoDestaques #item_nome {
+	text-transform:uppercase;
+	font-weight: Bold;
+	font-size:120%;	
+}
+
+#blocoDestaques #valor {
+	text-align:right;
+	bottom: 10%;
+	right:20px;	
+	position: absolute;
+	font-weight:bold;
+	text-shadow: 0px 0px 10px #F00;
+	font-size:180%;
+	color:#F00;
+}*/
